@@ -180,12 +180,7 @@ function calculerDepuis(typ, val) {
   }
 
   // 5) te et T  
-  if (te === undefined && Ri !== undefined) {
-    te = Math.log(Ri + 1) * (L / Vex);
-  }
-  if (T === undefined && te !== undefined) {
-    T = te / AS;
-  }
+
 
   // 6) x  
   if (x === undefined && T !== undefined) {
